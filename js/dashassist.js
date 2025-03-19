@@ -12,6 +12,6 @@ window.dashassistSettings = {
   g.src=dashassist_url+"/packs/js/sdk.js";
   s.parentNode.insertBefore(g,s);
   g.onload=function(){
-    window.dashassisSDK.run({ websiteToken: dashassist_token, baseUrl: dashassist_url })
+    window.dashassistSDK.run({ websiteToken: dashassist_token, baseUrl: dashassist_url })
   }
 })(document,"script");
