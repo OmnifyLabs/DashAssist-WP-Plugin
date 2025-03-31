@@ -8,6 +8,8 @@
 **License:** Apache-2.0
 **License URI:** https://www.apache.org/licenses/LICENSE-2.0.html  
 
+> **Note:** This repository includes both a `README.md` file (this file) for GitHub/development documentation and a `readme.txt` file for WordPress.org plugin repository requirements. The content is similar but formatted to meet the specific requirements of each platform.
+
 ## Description ##
 
 This plugin allows you to add a DashAssist AI agent webchat widget on every page of your WordPress website. This plugin also allows you customize the widget by providing options to select locale, position, design type etc.
