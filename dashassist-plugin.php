@@ -114,7 +114,7 @@ function dashassist_options_page() {
         <input
           type="text"
           name="dashassistSiteToken"
-          value="<?php echo get_option('dashassistSiteToken'); ?>"
+          value="<?php echo esc_attr(get_option('dashassistSiteToken')); ?>"
         />
       </div>
       <hr />
@@ -176,7 +176,7 @@ function dashassist_options_page() {
           <input
             type="text"
             name="dashassistLauncherText"
-            value="<?php echo get_option('dashassistLauncherText'); ?>"
+            value="<?php echo esc_attr(get_option('dashassistLauncherText')); ?>"
           />
         </div>
       <?php endif; ?>
