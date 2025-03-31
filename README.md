@@ -28,6 +28,24 @@ Yes.You need to create a website inbox and share the credentials for the plugin 
 
 Webchat widget supports multiple languages.
 
+## Development ##
+
+### Building the Release Zip ###
+
+To generate a production-ready zip file for WordPress:
+
+1. Make sure the build script is executable:
+   ```
+   chmod +x build-zip.sh
+   ```
+
+2. Run the build script:
+   ```
+   ./build-zip.sh
+   ```
+
+This will create a `dashassist.zip` file in the project directory with all necessary files properly organized in a parent directory called "dashassist". The script automatically excludes development files and previous builds.
+
 ## Changelog ##
 
 ### 0.1.0 ###
